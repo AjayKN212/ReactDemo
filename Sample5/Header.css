@@ -1,0 +1,26 @@
+.topBar {
+    width: screen-;
+    height: 100px;
+    background-color: dodgerblue;
+    color:white;
+}
+
+.topBar h1 {
+    padding-left: 100px;
+    padding-top:0px;
+    line-height: 80px;
+    margin:0px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 100px;
+}
+.navbar div{
+    padding-right:30px;
+}
+
+.navbar a {
+    color: white;
+}
