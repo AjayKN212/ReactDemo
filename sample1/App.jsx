@@ -14,7 +14,6 @@ class App extends React.Component {
                     Hello World!!!
                     <div>
                         <Child1 /> 
-                        yoo
                         <Child2 />
                     </div>
                 </div>

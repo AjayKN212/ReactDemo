@@ -9,7 +9,7 @@ export class Header extends React.Component {
     render() {
         return (
             <div className={styles.topBar}>
-                <h1>React Demo - Router</h1>
+                <h1>React Demo - Component LifeCycle</h1>
                 <div className={styles.navbar}>
                     <div><Link to={'/'}>Home</Link></div>
                     <div><Link to={'/Search'}>Search</Link></div>
