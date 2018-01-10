@@ -1,0 +1,57 @@
+.topBar {
+    width: screen-;
+    height: 100px;
+    background-color: dodgerblue;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.topBar h1 {
+    padding-left: 100px;
+    padding-top:0px;
+    line-height: 100px;
+    margin:0px;
+}
+
+.container{
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.global{
+    line-height: 20px;
+}
+
+.myTable{
+    margin-top:20px;
+    /* padding-top:20px; */
+    border: 2px solid;
+    table-layout: fixed;
+}
+
+.myTable th, td {
+    /* border-left: 1px solid black; */
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+.myTable thead{
+    font: bold;
+}
+
+.text{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size: 30px;
+}
+
+.textbox{
+    height:30px;
+    margin-right:30px;
+    width:200px;
+}
+
+.button{
+    height:30px;
+    width:100px;
+}

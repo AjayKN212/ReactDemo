@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>React App 2</title>
+    <link rel="stylesheet" type="text/css" href="./site.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body style="margin:0px">
+    <div id="app">
+        <div class="topBar">
+            <h1>React Demo 2</h1>
+        </div>
+        <div class="container">
+            <p class="text">Hello World 2 - Student List</p>
+            <div>
+                <input id="countInput" class="textbox" type="text" placeholder="Enter the number of students" />
+                <button id="loadButton" class="button">Load</button>
+            </div>
+            <table class="myTable">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody id="myTableBody"></tbody>
+            </table>
+        </div>
+    </div>
+<script>
+    $(document).ready(function(){
+
+    $("#loadButton").click(function(){
+        alert("input is "+$("#countInput").val())
+        var count = parseInt($("#countInput").val());
+        for(i=1;i<=count;i++)
+        {
+            //adding a row
+            var row = "<tr>"
+            row += "<td>"+i+"</td>";
+            row += "<td>Student-"+i+"</td>";
+            row += "<td>Email-"+i+"</td>";
+            row += "<td>Age-"+i+"</td>";
+            row += "</tr>"
+            $("#myTableBody").append(row);
+        }
+    });
+});
+</script>
+</body>
+
+</html>
